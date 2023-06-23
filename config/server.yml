@@ -1,0 +1,30 @@
+ServerName: My Project
+Env: development
+Host: 127.0.0.1
+Port: 80
+RequestLog: log
+EnableCompression: true
+AllowOrigin: "*"
+DataSource:
+  Mysql:
+    Host: docker.cloaks.cn
+    Port: 3306
+    UserName: root
+    Password: Ycu061036
+  Redis:
+    Host: docker.cloaks.cn
+    Port: 6379
+    UserName:
+    Password:
+Iris:
+  # Defaults to info.
+  LogLevel: info
+  # Defaults to false.
+  EnableOptimizations: true
+  # Defaults to empty.
+  RemoteAddrHeaders:
+    - "X-Real-Ip"
+    - "X-Forwarded-For"
+    - "CF-Connecting-IP"
+    - "True-Client-Ip"
+    - "X-Appengine-Remote-Addr"

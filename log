@@ -1,0 +1,608 @@
+{
+  "timestamp": "2023-06-23 22:02:18",
+  "latency": 391444300,
+  "code": 400,
+  "method": "GET",
+  "path": "/api/v1/greet/say/hello",
+  "ip": "127.0.0.1",
+  "query": [
+    {
+      "key": "name",
+      "value": "cloaks"
+    }
+  ],
+  "request": "{\r\n    \"name\": \"cloaks\"\r\n}",
+  "bytes_received": 26,
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:09:01",
+  "latency": 614100,
+  "code": 404,
+  "method": "GET",
+  "path": "/",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:09:01",
+  "latency": 0,
+  "code": 404,
+  "method": "GET",
+  "path": "/favicon.ico",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:09:08",
+  "latency": 721300,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:09:08",
+  "latency": 640900,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui.css",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui.css"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:09:08",
+  "latency": 1159700,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-standalone-preset.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-standalone-preset.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:09:08",
+  "latency": 6227800,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-bundle.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-bundle.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:09:09",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/favicon-32x32.png",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "favicon-32x32.png"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:27",
+  "latency": 1040800,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:27",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui.css",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui.css"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:27",
+  "latency": 5849000,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-standalone-preset.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-standalone-preset.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:27",
+  "latency": 23471500,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-bundle.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-bundle.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:27",
+  "latency": 414700,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/favicon-32x32.png",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "favicon-32x32.png"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:54",
+  "latency": 950200,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:54",
+  "latency": 324100,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui.css",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui.css"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:54",
+  "latency": 4488500,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-bundle.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-bundle.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:54",
+  "latency": 537000,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-standalone-preset.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-standalone-preset.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:54",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/favicon-32x32.png",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "favicon-32x32.png"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:10:59",
+  "latency": 756500,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/doc.json",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "doc.json"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:11:22",
+  "latency": 882200,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:11:22",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui.css",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui.css"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:11:22",
+  "latency": 2050200,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-standalone-preset.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-standalone-preset.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:11:22",
+  "latency": 6489800,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-bundle.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-bundle.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:11:22",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/doc.json",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "doc.json"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:11:22",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/favicon-32x32.png",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "favicon-32x32.png"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:07",
+  "latency": 1001900,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:07",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui.css",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui.css"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:07",
+  "latency": 11624400,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-bundle.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-bundle.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:07",
+  "latency": 980700,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-standalone-preset.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-standalone-preset.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:07",
+  "latency": 742800,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/doc.json",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "doc.json"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:07",
+  "latency": 340200,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/favicon-32x32.png",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "favicon-32x32.png"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:07",
+  "latency": 0,
+  "code": 304,
+  "method": "GET",
+  "path": "/swagger/favicon-32x32.png",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "favicon-32x32.png"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:23",
+  "latency": 1371100,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:23",
+  "latency": 0,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui.css",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui.css"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:23",
+  "latency": 1929000,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-standalone-preset.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-standalone-preset.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:23",
+  "latency": 6532900,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/swagger-ui-bundle.js",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "swagger-ui-bundle.js"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:23",
+  "latency": 170900,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/doc.json",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "doc.json"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:40:24",
+  "latency": 506500,
+  "code": 200,
+  "method": "GET",
+  "path": "/swagger/favicon-32x32.png",
+  "ip": "127.0.0.1",
+  "params": [
+    {
+      "key": "any",
+      "value": "favicon-32x32.png"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:42:38",
+  "latency": 378855600,
+  "code": 400,
+  "method": "GET",
+  "path": "/greet/sayhello",
+  "ip": "127.0.0.1",
+  "query": [
+    {
+      "key": "name",
+      "value": "aaa"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:42:38",
+  "latency": 0,
+  "code": 404,
+  "method": "GET",
+  "path": "/favicon.ico",
+  "ip": "127.0.0.1",
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:42:47",
+  "latency": 425300100,
+  "code": 400,
+  "method": "GET",
+  "path": "/greet/sayhello",
+  "ip": "127.0.0.1",
+  "query": [
+    {
+      "key": "name",
+      "value": "aaa"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:46:40",
+  "latency": 353178400,
+  "code": 400,
+  "method": "GET",
+  "path": "/greet/sayhello",
+  "ip": "127.0.0.1",
+  "query": [
+    {
+      "key": "name",
+      "value": "aaa"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:47:29",
+  "latency": 392401200,
+  "code": 400,
+  "method": "GET",
+  "path": "/greet/sayhello",
+  "ip": "127.0.0.1",
+  "query": [
+    {
+      "key": "name",
+      "value": "aaa"
+    }
+  ],
+  "bytes_sent": -1
+}
+{
+  "timestamp": "2023-06-23 22:48:56",
+  "latency": 61094556700,
+  "code": 400,
+  "method": "GET",
+  "path": "/greet/sayhello",
+  "ip": "127.0.0.1",
+  "query": [
+    {
+      "key": "name",
+      "value": "aaa"
+    }
+  ],
+  "bytes_sent": -1
+}

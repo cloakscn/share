@@ -1,16 +1,30 @@
 package main
 
 import (
-	"cloaks.cn/share/internal/apis"
-	"github.com/kataras/iris/v12"
+	"fmt"
+	"os"
+
+	"cloaks.cn/share/cmd"
 )
 
+// @title Swagger Example API
+// @version 1.0
+// @description This is a sample server Petstore server.
+// @termsOfService http://swagger.io/terms/
+
+// @contact.name API Support
+// @contact.url http://www.swagger.io/support
+// @contact.email support@swagger.io
+
+// @license.name Apache 2.0
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+
+// @host localhost:8080
+// @BasePath /v2
 func main() {
-	app := iris.New()
-
-	apis.BooksAPI(app)
-
-	app.Listen(":8080")
+	app := cmd.New()
+	if err := app.Execute(); err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
 }
-
-
