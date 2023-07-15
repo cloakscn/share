@@ -14,10 +14,14 @@ import (
 )
 
 func InitAPIs(api iris.Party) {
-	api.PartyConfigure("/users", new(UserAPI))
+	// api.PartyConfigure("/users", new(UserAPI))
 
 	// mvc
-	mvc.Configure(api.Party("/greet"), NewGreetController)
+	// mvc.Configure(api.Party("/greet"), NewGreetController)
+	mvc.Configure(api.Party("/"), NewTestController)
+	api.HandleDir("/static", iris.Dir("./assets"), iris.DirOptions{
+		Compress: true,
+		ShowList: true})
 }
 
 func InitCommonAPIs(api iris.Party, cfg configuration.Configuration) {

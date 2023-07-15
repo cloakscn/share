@@ -49,7 +49,7 @@ func (srv *Server) prepare() error {
 	// Here you can register the database instance
 	// and prepare any project-relative fields.
 	//srv.registerLog() // 关闭文件流的问题还没有解决
-	srv.registerDB()
+	// srv.registerDB()
 
 	if srv.Logger().Level == golog.DebugLevel {
 		srv.registerDebugFeatures()
@@ -134,8 +134,8 @@ func (srv *Server) Start() error {
 		su.Server.ReadHeaderTimeout = 2 * time.Minute
 	})
 
-	addr := fmt.Sprintf("%s:%d", srv.config.Host, srv.config.Port)
-	return srv.Listen(addr)
+	// addr := fmt.Sprintf("%s:%d", srv.config.Host, srv.config.Port)
+	return srv.Listen(":8080")
 }
 
 // AddCloser adds one or more function that should be called on
@@ -176,8 +176,8 @@ func (srv *Server) buildRouter() {
 	controllers.InitCommonAPIs(srv, srv.config)
 
 	srv.RegisterDependency(
-		srv.db,
-		handlers.Auth(),
+		// srv.db,
+		// handlers.Auth(),
 	)
 
 	controllers.InitAPIs(srv)

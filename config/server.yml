@@ -1,7 +1,7 @@
 ServerName: My Project
 Env: development
 Host: 127.0.0.1
-Port: 80
+Port: 8080
 RequestLog: log
 EnableCompression: true
 AllowOrigin: "*"

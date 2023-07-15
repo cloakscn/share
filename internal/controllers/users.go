@@ -3,7 +3,6 @@ package controllers
 import (
 	"cloaks.cn/share/internal/models"
 	"cloaks.cn/share/pkg/database"
-	"cloaks.cn/share/pkg/http/handlers"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/auth"
 )
@@ -28,19 +27,19 @@ func (api *UserAPI) Configure(r iris.Party) {
 	// GET http://localhost:8080/api/signout
 	r.Get("/signout", api.Auth.SignoutHandler)
 	// GET http://localhost:8080/api/member
-	r.Get("/member", api.Auth.VerifyHandler(handlers.AllowRole(models.Member)), func(s *auth.Auth[models.User]) iris.Handler {
-		return func(ctx iris.Context) {
-			user := s.GetUser(ctx)
-			ctx.Writef("Hello member: %s\n", user.Email)
-		}
-	}(api.Auth))
-	// GET http://localhost:8080/api/owner
-	r.Get("/owner", api.Auth.VerifyHandler(handlers.AllowRole(models.Owner)), func(s *auth.Auth[models.User]) iris.Handler {
-		return func(ctx iris.Context) {
-			user := s.GetUser(ctx)
-			ctx.Writef("Hello owner: %s\n", user.Email)
-		}
-	}(api.Auth))
+	// r.Get("/member", api.Auth.VerifyHandler(handlers.AllowRole(models.Member)), func(s *auth.Auth[models.User]) iris.Handler {
+	// 	return func(ctx iris.Context) {
+	// 		user := s.GetUser(ctx)
+	// 		ctx.Writef("Hello member: %s\n", user.Email)
+	// 	}
+	// }(api.Auth))
+	// // GET http://localhost:8080/api/owner
+	// r.Get("/owner", api.Auth.VerifyHandler(handlers.AllowRole(models.Owner)), func(s *auth.Auth[models.User]) iris.Handler {
+	// 	return func(ctx iris.Context) {
+	// 		user := s.GetUser(ctx)
+	// 		ctx.Writef("Hello owner: %s\n", user.Email)
+	// 	}
+	// }(api.Auth))
 }
 
 // @Summary Add a new pet to the store
